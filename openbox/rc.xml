@@ -323,7 +323,9 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>sakura -c 128 -r 31</command>
+        <!--<command>sakura -c 128 -r 31</command>-->
+        <!--<command>terminator -p "secondary"</command>-->
+        <command>terminology</command>
       </action>
     </keybind>
     <keybind key="W-S-t">

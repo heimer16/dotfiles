@@ -1,0 +1,24 @@
+#xscreensaver &
+#synclient TouchpadOff=1
+
+#keyboard rate
+xset r rate 220 90
+
+#disble touchpad
+sudo modprobe -r psmouse
+
+#startup programs
+tint2 &
+sleep 1 && tilda &
+clipit &
+sleep 1 && volumeicon &
+
+#conky(s)
+conky &
+conky -c ~/.conkyrc2 & 
+
+#set wallpaper
+sleep 2 && nitrogen --restore &
+
+# xcompmgr -C &
+#sleep 1 && compton -b &
