@@ -19,7 +19,7 @@
     <primaryMonitor>Active</primaryMonitor>
   </placement>
   <theme>
-    <name>Surreal</name>
+    <name>xfzen blue</name>
     <titleLayout>NLIMC</titleLayout>
     <keepBorder>no</keepBorder>
     <animateIconify>yes</animateIconify>
@@ -108,7 +108,7 @@
     </keybind>
     <keybind key="W-Print">
       <action name="Execute">
-        <command>/e/scripts/bin/scrotit</command>
+        <command>scrot -e 'cp $f /e/screenshots/scrot; mv $f /e/screenshots/scrot.png'</command>
       </action>
     </keybind>
     <keybind key="W-Pause">
@@ -200,6 +200,9 @@
       <action name="Close"/>
     </keybind>
     <keybind key="W-x">
+      <action name="Close"/>
+    </keybind>
+    <keybind key="W-BackSpace">
       <action name="Close"/>
     </keybind>
     <keybind key="W-Delete">
